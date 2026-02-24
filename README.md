@@ -168,11 +168,9 @@ R² was given the highest weight because predictive accuracy is the most importa
 
 ### Model Evaluation Table
 
-(Replace with your generated output values)
-
 | Model | MSE | MAE | RMSE | R² | Train Time |
 |-------|-----|-----|------|----|------------|
-| Linear Regression | ... | ... | ... | ... | ... |
+| Linear Regression | 93.907535  | 7.087400 | ... | ... | ... |
 | Ridge | ... | ... | ... | ... | ... |
 | Lasso | ... | ... | ... | ... | ... |
 | Decision Tree | ... | ... | ... | ... | ... |
