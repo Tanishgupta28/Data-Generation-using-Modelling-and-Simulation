@@ -1,11 +1,11 @@
-# 📊 Data Generation using Modelling & Simulation for Machine Learning  
+# Data Generation using Modelling & Simulation for Machine Learning  
 ## Multi-Criteria Model Selection using TOPSIS
 
 ---
 
-## 🔹 Abstract
+## Abstract
 
-This project focuses on generating synthetic data using a physics-based simulation environment and applying multiple machine learning models to predict system performance. Instead of selecting the best model using a single evaluation metric, a Multi-Criteria Decision Making (MCDM) technique — **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** — is used to scientifically rank the models.
+This project focuses on generating synthetic data using a physics-based simulation environment and applying multiple machine learning models to predict system performance. Instead of selecting the best model using a single evaluation metric, a Multi-Criteria Decision Making (MCDM) technique - **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** - is used to scientifically rank the models.
 
 The project integrates:
 
@@ -16,7 +16,7 @@ The project integrates:
 
 ---
 
-## 🔹 1. Problem Statement
+## 1. Problem Statement
 
 Collecting large-scale real-world data can be expensive or impractical. Simulation-based modelling allows us to generate synthetic datasets under controlled conditions.
 
@@ -31,7 +31,7 @@ This project aims to:
 
 ---
 
-## 🔹 2. Simulation Tool
+## 2. Simulation Tool
 
 We used the **CartPole-v1** environment from Gymnasium.
 
@@ -45,7 +45,7 @@ We used the **CartPole-v1** environment from Gymnasium.
 
 ---
 
-## 🔹 3. Methodology
+## 3. Methodology
 
 ### Step 1: Simulation Data Generation
 
@@ -124,7 +124,7 @@ Why multiple metrics?
 
 ---
 
-## 🔹 4. TOPSIS for Model Ranking
+## 4. TOPSIS for Model Ranking
 
 Instead of selecting a model based only on R², we applied **TOPSIS**.
 
@@ -164,7 +164,7 @@ R² was given the highest weight because predictive accuracy is the most importa
 
 ---
 
-## 🔹 5. Results
+## 5. Results
 
 ### Model Evaluation Table
 
@@ -196,7 +196,7 @@ The model with the highest TOPSIS score is selected as the optimal model.
 
 ---
 
-## 🔹 6. Result Graph
+## 6. Result Graph
 
 The bar graph shows the TOPSIS score of each model.
 
@@ -208,7 +208,7 @@ Interpretation:
 
 ---
 
-## 🔹 7. Discussion
+## 7. Discussion
 
 Observations:
 
@@ -221,7 +221,7 @@ Using TOPSIS ensures balanced decision-making across all evaluation criteria.
 
 ---
 
-## 🔹 8. Conclusion
+## 8. Conclusion
 
 This project demonstrates:
 
@@ -240,7 +240,7 @@ This approach ensures robust and unbiased model selection.
 
 ---
 
-## 🔹 9. Project Structure
+## 9. Project Structure
 
 ```
 CartPole-Simulation-ML/
@@ -253,7 +253,7 @@ CartPole-Simulation-ML/
 
 ---
 
-## 🔹 10. Future Improvements
+## 10. Future Improvements
 
 - Hyperparameter tuning
 - Cross-validation
@@ -263,7 +263,7 @@ CartPole-Simulation-ML/
 
 ---
 
-## 🔹 11. How to Run
+## 11. How to Run
 
 1. Open the notebook in Google Colab.
 2. Install required libraries.
@@ -272,6 +272,6 @@ CartPole-Simulation-ML/
 
 ---
 
-## 🔹 Final Statement
+## Final Statement
 
 This project integrates Simulation + Machine Learning + Multi-Criteria Decision Making to provide a comprehensive framework for data-driven model evaluation.
