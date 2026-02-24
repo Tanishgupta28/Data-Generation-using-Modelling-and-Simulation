@@ -1,8 +1,6 @@
 # Data Generation using Modelling & Simulation for Machine Learning  
 ## Multi-Criteria Model Selection using TOPSIS
 
----
-
 ## Abstract
 
 This project focuses on generating synthetic data using a physics-based simulation environment and applying multiple machine learning models to predict system performance. Instead of selecting the best model using a single evaluation metric, a Multi-Criteria Decision Making (MCDM) technique - **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** - is used to scientifically rank the models.
@@ -14,7 +12,7 @@ The project integrates:
 - Machine learning regression models
 - Multi-criteria decision analysis
 
----
+
 
 ## 1. Problem Statement
 
