@@ -1,7 +1,9 @@
 # Data Generation using Modelling & Simulation for Machine Learning  
 ## Multi-Criteria Model Selection using TOPSIS
 
+
 ## Abstract
+
 
 This project focuses on generating synthetic data using a physics-based simulation environment and applying multiple machine learning models to predict system performance. Instead of selecting the best model using a single evaluation metric, a Multi-Criteria Decision Making (MCDM) technique - **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** - is used to scientifically rank the models.
 
@@ -27,7 +29,7 @@ This project aims to:
 3. Evaluate them using multiple performance metrics.
 4. Use TOPSIS to rank and select the best model.
 
----
+
 
 ## 2. Simulation Tool
 
@@ -41,7 +43,7 @@ We used the **CartPole-v1** environment from Gymnasium.
 - Produces measurable reward output
 - Suitable for regression modelling
 
----
+
 
 ## 3. Methodology
 
@@ -78,7 +80,7 @@ Final Dataset Structure:
 
 The reward is used as the target variable.
 
----
+
 
 ### Step 2: Machine Learning Models
 
@@ -98,7 +100,7 @@ Dataset split:
 - 80% Training
 - 20% Testing
 
----
+
 
 ### Step 3: Evaluation Metrics
 
@@ -120,7 +122,7 @@ Why multiple metrics?
 - R² measures goodness of fit.
 - Training time measures computational cost.
 
----
+
 
 ## 4. TOPSIS for Model Ranking
 
@@ -135,7 +137,7 @@ TOPSIS ranks alternatives based on:
 
 It evaluates all criteria simultaneously.
 
----
+
 
 ### TOPSIS Steps
 
@@ -146,7 +148,7 @@ It evaluates all criteria simultaneously.
 5. Calculate closeness coefficient  
 6. Rank models  
 
----
+
 
 ### Criteria Weights Used
 
@@ -160,7 +162,7 @@ It evaluates all criteria simultaneously.
 
 R² was given the highest weight because predictive accuracy is the most important factor.
 
----
+
 
 ## 5. Results
 
@@ -179,7 +181,7 @@ R² was given the highest weight because predictive accuracy is the most importa
 | XGBoost | ... | ... | ... | ... | ... |
 | KNN | ... | ... | ... | ... | ... |
 
----
+
 
 ### TOPSIS Ranking Table
 
@@ -192,7 +194,7 @@ R² was given the highest weight because predictive accuracy is the most importa
 
 The model with the highest TOPSIS score is selected as the optimal model.
 
----
+
 
 ## 6. Result Graph
 
@@ -204,7 +206,7 @@ Interpretation:
 - Ensemble models outperform linear models
 - Tree-based methods capture non-linear simulation dynamics effectively
 
----
+
 
 ## 7. Discussion
 
@@ -217,7 +219,7 @@ Observations:
 
 Using TOPSIS ensures balanced decision-making across all evaluation criteria.
 
----
+
 
 ## 8. Conclusion
 
@@ -236,7 +238,7 @@ The best model selected using TOPSIS provides an optimal balance between:
 
 This approach ensures robust and unbiased model selection.
 
----
+
 
 ## 9. Project Structure
 
@@ -249,7 +251,7 @@ CartPole-Simulation-ML/
 ├── README.md
 ```
 
----
+
 
 ## 10. Future Improvements
 
@@ -259,7 +261,7 @@ CartPole-Simulation-ML/
 - Neural network comparison
 - Sensitivity analysis of weights
 
----
+
 
 ## 11. How to Run
 
@@ -268,7 +270,7 @@ CartPole-Simulation-ML/
 3. Run all cells.
 4. Results and rankings will be generated automatically.
 
----
+
 
 ## Final Statement
 
