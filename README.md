@@ -170,14 +170,14 @@ R² was given the highest weight because predictive accuracy is the most importa
 
 | Model | MSE | MAE | RMSE | R² | Train Time |
 |-------|-----|-----|------|----|------------|
-| Linear Regression | 93.907535  | 7.087400 | ... | ... | ... |
-| Ridge | ... | ... | ... | ... | ... |
-| Lasso | ... | ... | ... | ... | ... |
-| Decision Tree | ... | ... | ... | ... | ... |
-| Random Forest | ... | ... | ... | ... | ... |
-| Gradient Boosting | ... | ... | ... | ... | ... |
-| XGBoost | ... | ... | ... | ... | ... |
-| KNN | ... | ... | ... | ... | ... |
+| Linear Regression | 93.907535 | 7.087400 | 9.690590 | 0.000186 | 0.002228 |
+| Ridge | 93.871945 | 7.089869 | 9.688754 | 0.000565 | 0.001825 |
+| Lasso | 93.925952 | 7.197025 | 9.691540 | -0.000010 | 0.001827 |
+| Decision Tree | 141.075000 | 6.655000 | 11.877500 | -0.501997 | 0.006959 |
+| Random Forest | 68.261340 | 5.104400 | 8.262042 | 0.273235 | 0.494874 |
+| Gradient Boosting | 68.264419 | 5.399247 | 8.262228 | 0.273203 | 0.242785 |
+| XGBoost | 69.445058 | 5.394202 | 8.333370 | 0.260633 | 0.118432 |
+| KNN | 92.842800 | 6.670000 | 9.635497 | 0.011522 | 0.004623 |
 
 
 
@@ -185,9 +185,9 @@ R² was given the highest weight because predictive accuracy is the most importa
 
 | Rank | Model | TOPSIS Score |
 |------|--------|--------------|
-| 1 | Random Forest | 0.87 |
-| 2 | XGBoost | 0.82 |
-| 3 | Gradient Boosting | 0.76 |
+| 1 | XGBoost | 0.948 |
+| 2 | Gradient Boosting | 0.904 |
+| 3 | Random Forest | 0.821 |
 | ... | ... | ... |
 
 The model with the highest TOPSIS score is selected as the optimal model.
